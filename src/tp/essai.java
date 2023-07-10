@@ -24,6 +24,9 @@ public int getSalary() {
 public void setSalary(int salary) {
 	this.salary = salary;
 }
- 
- 
+@Override
+public String toString() {
+	return "essai [name=" + name + ", age=" + age + ", salary=" + salary + "]";
+}
+
 }
